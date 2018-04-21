@@ -608,7 +608,7 @@ define(function(require, factory) {
 
 ## 长缓存优化 【24】
 
-## 多页面开发
+## 多页面开发 【25】
 
 多入口entry
 多页面html
