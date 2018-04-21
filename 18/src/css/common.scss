@@ -1,0 +1,29 @@
+body {
+  font-size: 40px;
+  color: #ff3;
+}
+
+.bigBox {
+  height: 400px;
+  width: 400px;
+  border: 5px solid #000;
+  color: #000;
+
+  > div {
+    width: 144px;
+    height: 144px;
+    float: left;
+  }
+
+  .ani1 {
+    background: url('../assets/imgs/01.png') no-repeat;
+  }
+
+  .ani2 {
+    background: url('../assets/imgs/02.png') no-repeat;
+  }
+
+  .ani3 {
+    background: url('../assets/imgs/03.png') no-repeat;
+  }
+}

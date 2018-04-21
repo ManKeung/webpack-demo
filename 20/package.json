@@ -1,0 +1,55 @@
+{
+  "name": "05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server --open",
+    "stats": "webpack --env production --profile --json > stats.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "glob-all": "^3.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-inline-chunk-plugin": "^1.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^2.0.1",
+    "imports-loader": "^0.8.0",
+    "node-sass": "^4.8.3",
+    "postcss-loader": "^2.1.4",
+    "postcss-sprites": "^4.2.1",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "browserslist": [
+    ">= 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
